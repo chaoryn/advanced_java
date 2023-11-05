@@ -9,14 +9,14 @@ public class Main {
 
 
 public class Shape {
-    public double getArea(){
+    public double getArea(){ 
         return 0.0;
     }
 }
 
 
 public class Rectangle extends Shape {
-    private double length;
+    private double length; // do not forget to use the double datatype while initializing these variables!
     private double width;
 
     public Rectangle (double length, double width){ //set parameters
